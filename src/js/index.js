@@ -59,8 +59,6 @@ const chooseWord = () => {
     const randomNumber = Math.floor(Math.random() * palabrasWordle.length);
     chosenWord = palabrasWordle[randomNumber];
   }
-
-  return chosenWord;
 };
 
 const displayLetters = () => {
