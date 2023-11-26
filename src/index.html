@@ -13,18 +13,25 @@
   </head>
   <body>
 
-    <div class="main">
-      <div class="game-container">
-        <h2 id="game-question" class="center flex">Pregunta</h2>
-        <div id="question-options" class="flex">
-          <div class="option">a</div>
-          <div class="option">b</div>
-          <div class="option">c</div>
-          <div class="option">d</div>
-        </div>
-        <div id="results" class="center">
-        </div>
+    <div class="game-container">
+      <h1 class="title">WORDLE</h1>
+      <div class="word">
       </div>
+      <div class="word">
+      </div>
+      <div class="word">
+      </div>
+      <div class="word">
+      </div>
+      <div class="word">
+      </div>
+      <form id="user-word">
+        <input class="form-input" type="text" placeholder="type your solution" name="word">
+      </form>
+    </div>
+
+    <div class="popup hide" id="popup">
+      <p>¡La palabra debe tener 5 letras!</p>
     </div>
 
     <script type="module" src="./js/index.js"></script>
